@@ -31,6 +31,23 @@
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
   </div>
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'title' -%}
+      <div class="block-title">
+        <h2>{{ block.settings.custom_title | escape }}</h2>
+        {%- if block.settings.blog_show_date -%}
+          <p>{{ "now" | date: "%B %d, %Y" }}</p>
+        {%- endif -%}
+        {%- if block.settings.blog_show_author -%}
+          <p>by Author</p>
+        {%- endif -%}
+      </div>
+    {%- elsif block.type == 'custom-liquid' -%}
+      <div class="block-custom-liquid" style="padding-top: {{ block.settings.padding_top }}px; padding-bottom: {{ block.settings.padding_bottom }}px;">
+        {{ block.settings.custom_liquid }}
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
 </div>
 
 {% schema %}
