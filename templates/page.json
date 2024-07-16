@@ -12,16 +12,6 @@
     "main": {
       "type": "main-page",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "blog_show_date": true,
-            "blog_show_author": false,
-            "padding_top": 28,
-            "padding_bottom": 28,
-            "custom_title": ""
-          }
-        },
         "custom_liquid_PwBF4H": {
           "type": "custom-liquid",
           "settings": {
@@ -33,7 +23,6 @@
         }
       },
       "block_order": [
-        "title",
         "custom_liquid_PwBF4H"
       ],
       "settings": {
