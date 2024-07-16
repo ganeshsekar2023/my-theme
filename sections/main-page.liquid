@@ -69,6 +69,102 @@
       "label": "Custom Title",
       "default": "Custom Page Title"
     }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "blog_show_date",
+          "label": "Show Date",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "blog_show_author",
+          "label": "Show Author",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "label": "Padding Top",
+          "default": 28,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "label": "Padding Bottom",
+          "default": 28,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "text",
+          "id": "custom_title",
+          "label": "Custom Title",
+          "default": "Custom Page Title"
+        }
+      ]
+    },
+    {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom Liquid",
+          "default": "<div></div>"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "label": "Color Scheme",
+          "default": "",
+          "options": [
+            {
+              "value": "",
+              "label": "None"
+            },
+            {
+              "value": "color-scheme-1",
+              "label": "Color Scheme 1"
+            },
+            {
+              "value": "color-scheme-2",
+              "label": "Color Scheme 2"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "label": "Padding Top",
+          "default": 40,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "label": "Padding Bottom",
+          "default": 52,
+          "min": 0,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Pages"
+    }
   ]
 }
 {% endschema %}
