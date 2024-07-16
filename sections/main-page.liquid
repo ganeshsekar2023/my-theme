@@ -16,6 +16,15 @@
   }
 {%- endstyle -%}
 
+{% if page.url == '/pages/configurator' %} 
+
+<style>
+.page-width {
+max-width: 85% !important;
+margin: auto !important;
+}
+</style> {% endif %}
+
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
