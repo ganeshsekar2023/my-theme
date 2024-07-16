@@ -1,12 +1,11 @@
-
 {
   "sections": {
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
+        "padding_top": 52,
         "padding_bottom": 28,
-        "custom_title": "sample text"
+        "custom_title": "Sample text"
       }
     }
   },
