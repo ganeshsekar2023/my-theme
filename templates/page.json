@@ -16,9 +16,19 @@
         "padding_bottom": 28,
         "custom_title": "Custom Page Title"
       }
+    },
+    "custom_liquid_akWn3F": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_akWn3F"
   ]
 }
