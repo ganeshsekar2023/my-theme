@@ -11,14 +11,36 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false,
+            "padding_top": 28,
+            "padding_bottom": 28,
+            "custom_title": "Custom Page Title"
+          }
+        },
+        "custom_liquid_PwBF4H": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div> <\/div>",
+            "color_scheme": "",
+            "padding_top": 40,
+            "padding_bottom": 52
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "custom_liquid_PwBF4H"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28,
-        "custom_title": "Custom Page Title"
       }
     }
-  
   },
   "order": [
-    "main",  ]
+    "main"
+  ]
 }
