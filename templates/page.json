@@ -17,10 +17,10 @@
         "custom_title": "Custom Page Title"
       }
     },
-    "custom_liquid_akWn3F": {
+    "custom_liquid_PwBF4H": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "\/*\n* ------------------------------------------------------------\n* IMPORTANT: The contents of this file are auto-generated.\n*\n* This file may be updated by the Shopify admin theme editor\n* or related systems. Please exercise caution as any changes\n* made to this file may be overwritten.\n* ------------------------------------------------------------\n*\/\n{\n  \"sections\": {\n    \"main\": {\n      \"type\": \"main-page\",\n      \"settings\": {\n        \"padding_top\": 28,\n        \"padding_bottom\": 28,\n        \"custom_title\": \"Custom Page Title\",\n      }\n    },\n  },\n  \"order\": [\n    \"main\"\n  ]\n}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -29,6 +29,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_akWn3F"
+    "custom_liquid_PwBF4H"
   ]
 }
