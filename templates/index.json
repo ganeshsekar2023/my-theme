@@ -59,7 +59,7 @@
     "custom_liquid_JYcHQE": {
       "type": "custom-liquid",
       "custom_css": [
-        ".twentytwenty-container img {height: 100%;}"
+        ".twentytwenty-container img {height: 100% !important;}"
       ],
       "settings": {
         "custom_liquid": "<div class='twentytwenty-container'>\n\n    <img src='https:\/\/www.devotional-reflections-from-the-bible.com\/images\/IMG_1342.jpg' \/>\n\n    <img src='https:\/\/th.bing.com\/th\/id\/OIP.mfB9nSNoJtvl0748ML6PagHaFj?rs=1&pid=ImgDetMain' \/>\n\n<\/div>",
