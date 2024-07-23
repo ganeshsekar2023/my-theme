@@ -59,7 +59,7 @@
     "custom_liquid_JYcHQE": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class='twentytwenty-container'>\n\n    <img src='https:\/\/www.devotional-reflections-from-the-bible.com\/images\/IMG_1342.jpg' \/>\n\n    <img src='' \/>\n\n<\/div>",
+        "custom_liquid": "<div class='twentytwenty-container'>\n\n    <img src='https:\/\/www.devotional-reflections-from-the-bible.com\/images\/IMG_1342.jpg' \/>\n\n    <img src='https:\/\/th.bing.com\/th\/id\/OIP.mfB9nSNoJtvl0748ML6PagHaFj?rs=1&pid=ImgDetMain' \/>\n\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
