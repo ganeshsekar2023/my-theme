@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -69,7 +69,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -88,14 +88,12 @@
     },
     "custom_liquid_Nncarx": {
       "type": "custom-liquid",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class='twentytwenty-container'>\n\n    <img src='https:\/\/th.bing.com\/th\/id\/OIP.mfB9nSNoJtvl0748ML6PagHaFj?rs=1&pid=ImgDetMain' \/>\n\n    <img src='https:\/\/tse1.mm.bing.net\/th\/id\/OIP.-nZTqP5s0mNzxIEmLd9G7wHaE7?pid=ImgDetMain' \/>\n\n<\/div>",
+        "custom_liquid": "<div class='twentytwenty-container'>\n\n    <img src='https://th.bing.com/th/id/OIP.mfB9nSNoJtvl0748ML6PagHaFj?rs=1&pid=ImgDetMain' />\n\n    <img src='https://tse1.mm.bing.net/th/id/OIP.-nZTqP5s0mNzxIEmLd9G7wHaE7?pid=ImgDetMain' />\n\n</div>",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 56
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "featured_collection": {
@@ -171,7 +169,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-1",
@@ -186,7 +184,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -195,7 +193,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -204,7 +202,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
