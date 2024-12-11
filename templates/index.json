@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -69,7 +69,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
@@ -156,7 +156,7 @@
     "custom_liquid_z6LhVH": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"custom\">\n\n<div class='twentytwenty-container'>\n\n    <img src='https://th.bing.com/th/id/OIP.mfB9nSNoJtvl0748ML6PagHaFj?rs=1&pid=ImgDetMain' />\n\n    <img src='https://tse1.mm.bing.net/th/id/OIP.-nZTqP5s0mNzxIEmLd9G7wHaE7?pid=ImgDetMain' />\n</div>\n</div>",
+        "custom_liquid": "<div class=\"custom\">\n\n<div class='twentytwenty-container'>\n\n    <img src='https:\/\/th.bing.com\/th\/id\/OIP.mfB9nSNoJtvl0748ML6PagHaFj?rs=1&pid=ImgDetMain' \/>\n\n    <img src='https:\/\/tse1.mm.bing.net\/th\/id\/OIP.-nZTqP5s0mNzxIEmLd9G7wHaE7?pid=ImgDetMain' \/>\n<\/div>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 40
@@ -168,7 +168,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-1",
