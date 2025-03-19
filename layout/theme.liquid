@@ -260,6 +260,27 @@
       }
     {% endstyle %}
 
+
+        {% if page.url == '/pages/freestyle-apparel' or page.url == '/pages/freestyle-headwear' %}
+<style>
+  .page-width,
+  .page-width--narrow {
+    max-width: 85% !important;
+    margin: auto !important;
+  }
+
+  .page-title {
+    margin: 0 !important;
+    display:flex !important;
+    justify-content:center !important;
+  }
+
+  div:empty, section:empty, article:empty, p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty {
+    display: block;
+ }
+</style>
+{% endif %}
+
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -287,25 +308,7 @@
       >
     {%- endif -%}
 
-    {% if page.url == '/pages/freestyle-apparel' or page.url == '/pages/freestyle-headwear' %}
-<style>
-  .page-width,
-  .page-width--narrow {
-    max-width: 85% !important;
-    margin: auto !important;
-  }
 
-  .page-title {
-    margin: 0 !important;
-    display:flex !important;
-    justify-content:center !important;
-  }
-
-  div:empty, section:empty, article:empty, p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty {
-    display: block;
- }
-</style>
-{% endif %}
 
     <script>
       if (Shopify.designMode) {
