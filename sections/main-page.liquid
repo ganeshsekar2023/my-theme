@@ -17,25 +17,7 @@
   }
 {%- endstyle -%}
 
-{% if page.url == '/pages/freestyle-apparel' or page.url == '/pages/freestyle-headwear' %}
-<style>
-  .page-width,
-  .page-width--narrow {
-    max-width: 85% !important;
-    margin: auto !important;
-  }
 
-  .page-title {
-    margin: 0 !important;
-    display:flex !important;
-    justify-content:center !important;
-  }
-
-  div:empty, section:empty, article:empty, p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty {
-    display: block;
- }
-</style>
-{% endif %}
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
