@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "#iframediv{max-width: 85% !important; margin: auto !important; }"
+        ".pag{max-width: 85% !important; margin: auto !important;}"
       ],
       "settings": {
         "padding_top": 36,
