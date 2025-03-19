@@ -3567,11 +3567,4 @@ details-disclosure > details {
   }
 }
 
-.page-width {
-  max-width: 85% !important;
-  margin: auto !important;
-}
-.page-width--narrow {
-  max-width: 85% !important;
-  margin: auto !important;
-}
+
