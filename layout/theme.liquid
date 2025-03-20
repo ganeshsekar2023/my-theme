@@ -52,6 +52,11 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
+    {% if page.url == '/pages/configurator' %} 
+      <style> .page-width { max-width: 85% !important; margin: auto !important; } </style> 
+    {% endif %}
+
+    
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
